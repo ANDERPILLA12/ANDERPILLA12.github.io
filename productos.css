@@ -1,0 +1,25 @@
+.banner1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.727), rgb(12, 12, 11)),
+    url("./img/granos.jfif");
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.secciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px 10px;
+   
+
+}

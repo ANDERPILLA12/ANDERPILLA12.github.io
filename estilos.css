@@ -1,0 +1,183 @@
+*{
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+.nav{
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgba(232, 232, 232, 1);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.logo-principal{
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+
+}
+.container-fluid{
+    
+}
+ul,li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 27px ;
+    
+text-decoration: none;
+  
+    
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+li {
+   
+    padding-top: 30px;
+    text-decoration: none;
+    color: black;
+    
+}
+li:hover{background-color: rgb(221, 221, 221);border-radius: 8px;}
+img{
+    max-height: 60vh;
+    max-width: 100%;
+
+}
+.art{
+    display: flex;
+    flex-direction: row;
+    direction: initial;
+    padding: 15px 25px;
+   
+    max-height: 600px;
+}
+.art-mov{
+    display: flex;
+    flex-direction: row;
+    padding:150px;
+    width: 80%;
+    margin: 0 auto ;
+}
+.animacioncaja{
+    width: 0px;
+    height: 0px;
+}
+.productos{
+    width: 0px;
+    height: 0px;
+    margin: 0 auto;
+}
+.art2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.727), rgb(12, 12, 11)),
+    url("./img/tasa.jpg");
+    
+
+    
+}
+.art-mov2{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    padding:40px;
+    width: 60%;
+    margin: 0 auto ;
+
+}
+.texto2{
+    color: white;
+    max-width: 550px;
+}
+
+.fot {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.508), rgb(12, 12, 11)),
+    url("./img/granos.jfif");
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   height: 50vh;
+   
+  
+}
+.fot1{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 20px;
+    justify-items: space-between;
+
+}
+.fot1 div{
+
+    justify-content: space-between;
+    padding: 10px 20px;
+
+}
+.logo-fotter{
+    max-width: 300px;
+    
+}
+#logo{
+   
+    filter: invert(0.9) hue-rotate(190deg) saturate(220%) ;
+}
+.copy{
+    
+    position: absolute;
+    
+    margin-top: 45vh;
+    margin-right: 4vh;
+    opacity: 0.6;
+   
+    
+    
+}
+iframe{
+    margin-left:200px ;
+}
+/*EStilos de pop  up inicio sesion*/
+.container {
+padding: 2rem 0rem;
+}
+
+@media (min-width: 576px) {
+.modal-dialog {
+  max-width: 400px;
+}
+.modal-dialog .modal-content {
+  padding: 1rem;
+}
+}
+.modal-header .close {
+margin-top: -1.5rem;
+}
+
+.form-title {
+margin: -2rem 0rem 2rem;
+}
+
+.btn-round {
+border-radius: 3rem;
+}
+
+.delimiter {
+padding: 1rem;
+}
+
+.social-buttons .btn {
+margin: 0 0.5rem 1rem;
+}
+
+.signup-section {
+padding: 0.3rem 0rem;
+}

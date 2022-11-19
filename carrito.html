@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/estiloscarrito.css">
+    <link rel="stylesheet" href="/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
+    
+</head>
+<body>
+
+    <header>
+        <div class="nav">
+          <div class="logo-principal">
+            <img src="/img/logo-artecafe-1.png" alt="" width="150px" height="85px">
+          </div>
+            <ul>
+                <li>Inicio</li>
+                <li>Nosotros</li>
+                <li>Productos</li>
+                <li>Blog</li>
+                <li>Contacto</li>
+                <li>  <img src="./img/loupe_86084.ico" alt="" width="20px" height="20px"></li>
+                <li>
+               
+                    <a type="text" class="btn  btn-round " data-toggle="modal" data-target="#loginModal" >
+                      Iniciar sesion/Registrarse 
+                    </a>  
+                 
+                </li>
+                <li> <a href="http://127.0.0.1:5501/carrito.html"> <img src="/img/carrito.ico" width="20px" height="20px"></a> </li>
+            </ul>
+        </div>
+
+    </header>
+
+    
+    
+
+<!--For Page-->
+<div class="bg">
+
+
+    <!--For Row containing all card-->
+    <div class="row mainRow">
+
+
+
+        <!--Card 1-->
+        <div class="col-sm-5 ">
+            <div class="card card-cascade wider shadow p-3 mb-5 ">
+
+                <!--Card image-->
+                <div class="view view-cascade overlay text-center">
+                    <img class="card-img-top" src="/img/1641333540435-3-867x1024.png" alt="" >
+                    <a>
+                        <div class="mask rgba-white-slight"></div>
+                    </a>
+                </div>
+
+
+                <!--Product Description-->
+                <div class="desc">
+
+        
+
+
+
+
+                    <!-- 2nd Row for title-->
+                    <div class="row subRow">
+
+                        <!--Column for Data-->
+                        <div class="col">
+                            
+                            <p class="row2">Descripcion</p>
+                            <p class="text-muted row1"> pero que no toleran el sabor tan intenso del espresso. Porque el americano no es otra cosa que un espresso con agua 
+                                caliente, o más exactamente: un café que consiste en partes exactamente iguales de espresso y agua.</p>
+                        </div>
+
+                        <!--Column for Data-->
+            
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--Card 2-->
+        <div class="col-sm-4">
+            <div class="card card-cascade card-ecommerce wider shadow p-3 mb-5 ">
+
+                <!--Card Body-->
+                <div class="card-body card-body-cascade">
+
+                    <!--Card Description-->
+                    <div class="card2decs">
+
+                        <p class="heading1"><strong>CAfe Villa Rica</strong></p>
+                        <p class="quantity">Precio <span class="float-right text1">S/.55</span></p>
+                        <p class="subtotal">Subtotal<span class="float-right text1">$1,240</span></p>
+                        <p class="shipping">Envio <span class="float-right text1">Free</span></p>
+                        <p class="promocode">Codigo De Promocion<span class="float-right text1">-$100</span></p>
+                        <p class="total"><strong>Total</strong><span class="float-right totalText1">$<span
+                                    class="totalText2">1,140</span></span></p>
+
+                    </div>
+
+                    <div class="payment">
+                    
+                        <p class="heading2"><strong>Cantidad</strong></p>
+                        <button id="menos" type="button">-</button>
+                    
+                        <input type="text" id="contador" class="form-control" value="1" min="1" />
+                    
+                        <button id="mas" type="button">+</button>
+                    
+                    
+                        <p class="nameAndcvcValue">Mr. Example<span class="float-right">010</span></p>
+                    
+                    </div>
+
+                    <!--Card footer-->
+                    <a href="" class="purchaseLink">
+                        <div class="card-footer text-center">
+                            <span><a href="http://127.0.0.1:5501/pasarelapago.html"> CONTINUAR CON LA COMPRA &#8594;</a></span>
+                           
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="/java.js"></script>
+</html>
